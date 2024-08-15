@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'TT Norms';
+    src: url('../fonts/TT-Norms-Pro-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('../fonts/TT-Norms-Pro-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('../fonts/TT-Norms-Pro-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('../fonts/TT-Norms-Pro-ExtraBold.ttf');
+    font-weight: 800;
+}

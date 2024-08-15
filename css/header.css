@@ -1,0 +1,126 @@
+.header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+    padding: 30px 0;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-nav {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.header-nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav__item {
+	position: relative;
+}
+
+.header-nav__item:not(:last-child) {
+	margin-right: 30px;
+}
+
+.nav-item__btn,
+.nav-item__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+	border: none;
+	font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+	transition: color 0.3s ease;
+}
+
+.nav-item__btn_active {
+    color: #118bdd;
+}
+
+.nav-item__btn-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    transition: transform .3s ease;
+}
+
+.nav-item__btn-icon path {
+    stroke: currentColor;
+}
+
+.nav-item__btn_active .nav-item__btn-icon {
+    transform: rotate(-180deg);
+}
+
+.nav-dropdown {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	min-width: 150px;
+    max-width: 250px;
+    margin-top: 16px;
+    padding: 30px;
+	background-color: #0c0e16;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.3s ease-in, visibility 0.3s ease-in;
+}
+
+.nav-dropdown_active {
+	opacity: 1;
+	visibility: visible;
+}
+
+.nav-dropdown__link {
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+	color: #fff;
+    transition: color .3s ease;
+}
+
+.header-contacts__item_phone .header-contacts__link {
+    display: block;
+    font-weight: 500;
+    color: #fff;
+}
+
+.header-contacts__item_email .header-contacts__link {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    color: #8c94a6;
+}
+
+
+@media (hover: hover) {
+    .nav-dropdown__link:hover,
+    .nav-item__btn:hover,
+    .nav-item__link:hover {
+        color: #118bdd;
+    }  
+}
+
+@media (max-width: 1200px) {
+    .nav-item__btn, .nav-item__link {
+        font-size: 10px;
+    }
+}

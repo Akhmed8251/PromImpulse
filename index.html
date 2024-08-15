@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Пром Импульс</title>
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <div class="header__container container">
+                <a href="/" class="header__logo logo">
+                    <img class="logo__img" src="/images/icons/logo.svg" alt="Логотип Пром Импульс">
+                </a>
+                <nav class="header__nav header-nav">
+                    <ul class="header-nav__list">
+                        <li class="header-nav__item nav-item">
+                            <button class="nav-item__btn">
+                                <span class="nav-item__btn-text">О компании</span>
+                                <div class="nav-item__btn-icon">
+                                    <svg width="10" height="8" viewBox="0 0 10 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1.66666L5 5.66666L9 1.66666" stroke-width="2"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="nav-item__dropdown nav-dropdown">
+                                <ul class="nav-dropdown__list">
+                                    <li class="nav-dropdown__item">
+                                        <a href="#" class="nav-dropdown__link">О нас</a>
+                                    </li>
+                                    <li class="nav-dropdown__item">
+                                        <a href="#" class="nav-dropdown__link">Реквизиты</a>
+                                    </li>
+                                    <li class="nav-dropdown__item">
+                                        <a href="#" class="nav-dropdown__link">Закупки</a>
+                                    </li>
+                                    <li class="nav-dropdown__item">
+                                        <a href="#" class="nav-dropdown__link">Партнеры</a>
+                                    </li>
+                                    <li class="nav-dropdown__item">
+                                        <a href="#" class="nav-dropdown__link">Лицензии</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header-nav__item nav-item">
+                            <button class="nav-item__btn">
+                                <span class="nav-item__btn-text">Услуги</span>
+                                <div class="nav-item__btn-icon">
+                                    <svg width="10" height="8" viewBox="0 0 10 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1.66666L5 5.66666L9 1.66666" stroke-width="2"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="nav-item__dropdown nav-dropdown">
+                                <ul class="nav-dropdown__list">
+                                    <li class="nav-dropdown__item">
+                                        <a href="#" class="nav-dropdown__link">Подпункт 1</a>
+                                    </li>
+                                    <li class="nav-dropdown__item">
+                                        <a href="#" class="nav-dropdown__link">Подпункт 2</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header-nav__item nav-item">
+                            <button class="nav-item__btn">
+                                <span class="nav-item__btn-text">Раскрытие информации</span>
+                                <div class="nav-item__btn-icon">
+                                    <svg width="10" height="8" viewBox="0 0 10 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1.66666L5 5.66666L9 1.66666" stroke-width="2"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="nav-item__dropdown nav-dropdown">
+                                <ul class="nav-dropdown__list">
+                                    <li class="nav-dropdown__item">
+                                        <a href="#" class="nav-dropdown__link">Подпункт 1</a>
+                                    </li>
+                                    <li class="nav-dropdown__item">
+                                        <a href="#" class="nav-dropdown__link">Подпункт 2</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header-nav__item nav-item">
+                            <button class="nav-item__btn">
+                                <span class="nav-item__btn-text">Абонентам</span>
+                                <div class="nav-item__btn-icon">
+                                    <svg width="10" height="8" viewBox="0 0 10 8" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1.66666L5 5.66666L9 1.66666" stroke-width="2"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <div class="nav-item__dropdown nav-dropdown">
+                                <ul class="nav-dropdown__list">
+                                    <li class="nav-dropdown__item">
+                                        <a href="#" class="nav-dropdown__link">Подпункт 1</a>
+                                    </li>
+                                    <li class="nav-dropdown__item">
+                                        <a href="#" class="nav-dropdown__link">Подпункт 2</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="header-nav__item nav-item">
+                            <a href="#" class="nav-item__link">Наши объекты</a>
+                        </li>
+                        <li class="header-nav__item nav-item">
+                            <a href="#" class="nav-item__link">Новости</a>
+                        </li>
+                        <li class="header-nav__item nav-item">
+                            <a href="#" class="nav-item__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__contacts header-contacts">
+                    <ul class="header-contacts__list">
+                        <li class="header-contacts__item header-contacts__item_phone">
+                            <a href="tel:+71234567890" class="header-contacts__link">+7(123) 456-78-90</a>
+                        </li>
+                        <li class="header-contacts__item header-contacts__item_email">
+                            <a href="mailto:yourmail@company.com" class="header-contacts__link">yourmail@company.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="hero _fullscreen">
+                <video class="hero__bg-video" src="hero-bg-video.mp4" autoplay playsinline muted loop></video>
+                <div class="hero__container container">
+                    <div class="hero__main">
+                        <h1 class="hero__title title">ООО "Пром Импульс" Теплоснабжающая компания</h1>
+                        <p class="hero__descr">Полный комплекс работ: от проектирования до сдачи объекта в эксплуатацию
+                        </p>
+                    </div>
+                    <div class="hero__anchors anchors-block">
+                        <ul class="anchors-block__list">
+                            <li class="anchors-block__item anchors-block__item_active" data-tooltip="Партнеры">
+                                <a href="#" class="anchors-block__link"></a>
+                            </li>
+                            <li class="anchors-block__item" data-tooltip="Партнеры">
+                                <a href="#" class="anchors-block__link"></a>
+                            </li>
+                            <li class="anchors-block__item" data-tooltip="Партнеры">
+                                <a href="#" class="anchors-block__link"></a>
+                            </li>
+                            <li class="anchors-block__item" data-tooltip="Партнеры">
+                                <a href="#" class="anchors-block__link"></a>
+                            </li>
+                            <li class="anchors-block__item" data-tooltip="Партнеры">
+                                <a href="#" class="anchors-block__link"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hero__benefits hero-benefits">
+                        <div class="hero-benefits__slider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="benefits-slide benefits-slide_professionalism">
+                                        <div class="benefits-slide__icon"
+                                            style="background-image: url('images/icons/professionalism.svg')"></div>
+                                        <div class="benefits-slide__body">
+                                            <h4 class="benefits-slide__title">Профессионализм</h4>
+                                            <p class="benefits-slide__text">
+                                                Разнообразный и богатый опыт дальнейшее развитие различных форм
+                                                деятельности
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="benefits-slide benefits-slide_transparency">
+                                        <div class="benefits-slide__icon"
+                                            style="background-image: url('images/icons/transparency.svg')"></div>
+                                        <div class="benefits-slide__body">
+                                            <h4 class="benefits-slide__title">Прозрачность</h4>
+                                            <p class="benefits-slide__text">
+                                                Разнообразный и богатый опыт дальнейшее развитие
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="benefits-slide benefits-slide_innovation">
+                                        <div class="benefits-slide__icon"
+                                            style="background-image: url('images/icons/innovation.svg')"></div>
+                                        <div class="benefits-slide__body">
+                                            <h4 class="benefits-slide__title">Инновации</h4>
+                                            <p class="benefits-slide__text">
+                                                Разнообразный и богатый опыт дальнейшее развитие различных форм
+                                                деятельности
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="benefits-slide benefits-slide_aspiration">
+                                        <div class="benefits-slide__icon"
+                                            style="background-image: url('images/icons/aspiration.svg')"></div>
+                                        <div class="benefits-slide__body">
+                                            <h4 class="benefits-slide__title">Стремление быть лучшими</h4>
+                                            <p class="benefits-slide__text">
+                                                Разнообразный и богатый опыт дальнейшее развитие различных
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero-benefits__navigation">
+                                <button
+                                    class="hero-benefits__navigation-btn hero-benefits__navigation-btn_prev"></button>
+                                <button
+                                    class="hero-benefits__navigation-btn hero-benefits__navigation-btn_next"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="direction">
+                <div class="direction__container container">
+                    <h2 class="direction__title title">Направления деятельности</h2>
+                </div>
+                <ul class="direction__list">
+                    <li class="direction__item item-direction"
+                        style="background-image: url('images/direction/direction-1.jpg')">
+                        <a href="#" class="item-direction__link">
+                            <span class="item-direction__link-text">Строительно-монтажные работы</span>
+                        </a>
+                    </li>
+                    <li class="direction__item item-direction"
+                        style="background-image: url('images/direction/direction-2.jpg')">
+                        <a href="#" class="item-direction__link">
+                            <span class="item-direction__link-text">Проектирование объектов теплоэнергетики</span>
+                        </a>
+                    </li>
+                    <li class="direction__item item-direction"
+                        style="background-image: url('images/direction/direction-3.jpg')">
+                        <a href="#" class="item-direction__link">
+                            <span class="item-direction__link-text">Техническое обслуживание объектов
+                                теплоэнергетики</span>
+                        </a>
+                    </li>
+                </ul>
+            </section> -->
+            <!-- <section class="partners">
+                <div class="partners__container container">
+                    <div class="partners__header">
+                        <h2 class="partners__title title">Партнеры</h2>
+                        <div class="partners__navigation">
+                            <button class="partners__navigation-btn partners__navigation-btn_prev">
+                                <div class="partners__navigation-icon">
+                                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.8335 1.5L2.3335 7L7.8335 12.5" stroke="#dbdbdb" stroke-width="3" />
+                                    </svg>
+                                </div>
+                            </button>
+                            <button class="partners__navigation-btn partners__navigation-btn_next">
+                                <div class="partners__navigation-icon">
+                                    <svg width="9" height="14" viewBox="0 0 9 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.1665 1.5L6.6665 7L1.1665 12.5" stroke="#dbdbdb" stroke-width="3" />
+                                    </svg>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="partners__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="partners-slide" style="background-image: url('images/partners/gazprom.svg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partners-slide" style="background-image: url('images/partners/lukoil.svg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partners-slide" style="background-image: url('images/partners/rosneft.svg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partners-slide" style="background-image: url('images/partners/yandex.svg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partners-slide" style="background-image: url('images/partners/gazprom.svg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partners-slide" style="background-image: url('images/partners/lukoil.svg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partners-slide" style="background-image: url('images/partners/rosneft.svg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partners-slide" style="background-image: url('images/partners/yandex.svg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partners-slide" style="background-image: url('images/partners/gazprom.svg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partners-slide" style="background-image: url('images/partners/lukoil.svg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partners-slide" style="background-image: url('images/partners/rosneft.svg')">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="partners-slide" style="background-image: url('images/partners/yandex.svg')">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section> -->
+            <!-- <section class="objects">
+                <div class="objects__container container">
+                    <h2 class="objects__title title">Наши объекты</h2>
+                    <div class="objects__body">
+                        <div class="objects__info">
+                            <ul class="objects__info-list">
+                                <li class="objects__info-item objects__info-item_completed">
+                                    <span class="objects__info-number" data-number="143"></span>
+                                    <span class="objects__info-text">Объекта построено</span>
+                                </li>
+                                <li class="objects__info-item objects__info-item_in-development">
+                                    <span class="objects__info-number" data-number="24"></span>
+                                    <span class="objects__info-text">Объекта в разработке</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="objects__wrapper">
+                            <div class="objects__map">
+                                <svg width="1030" height="694" viewBox="0 0 1030 694" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g class="objects__group" data-order="1">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M34.9736 197.31L29.0141 197.378L26.5494 200.091L24.7468 209.284L22.5764 210.505L16.2122 210.742L0.173096 210.267L2.01245 202.534L4.47718 196.36L7.64085 189.78L8.70767 190.221L9.7745 190.73L10.7678 191.306L15.4029 184.997L20.0749 178.79L24.7468 172.549L36.629 163.085L48.1433 152.977L59.5105 142.428L70.7673 131.472L81.9873 120.347L93.3177 109.119L104.869 97.9598L114.47 97.2475L124.476 95.4498L133.636 89.446L133.048 87.1395L132.422 84.833L131.87 82.4925L139.743 67.3305L150.338 56.171L162.477 47.9964L174.727 41.6873L185.8 36.2602L194.188 26.8645L202.612 17.5366L211.036 8.24268L220.159 15.3658L229.356 20.1823L239.803 24.2866L241.238 29.3067L242.195 31.9524L243.593 34.5642L245.763 35.2087L249.478 35.7514L253.378 35.8109L252.642 49.3871L253.341 60.9536L255.695 75.2676L256.247 95.2462L256.174 109.628L254.297 120.822L249.736 131.337L241.275 143.717L242.967 148.771L244.659 153.961L246.351 159.151L248.117 181.978L251.097 194.834L256.394 200.058L265.15 200.261L278.503 197.819L279.239 202.194L279.386 206.638L279.864 210.573L289.466 214.846L299.104 219.154L309.073 223.53L317.865 234.622L321.802 247.952L320.698 263.08L314.04 279.701L298.515 274.443L282.955 268.507L267.467 262.605L251.87 257.246L238.847 258.772L224.721 266.608L218.099 285.67L201.655 283.5L185.138 282.007L170.019 275.969L166.671 266.743L163.323 262.978L157.916 259.926L150.595 248.97L147.063 244.526L144.488 242.728L143.164 245.306L142.502 247.138L142.097 249.682L134.85 245.408L128.449 240.591L122.527 235.029L117.45 221.732L108.879 210.199L103.508 196.53L114.176 204.196L125.653 215.932L135.549 217.831V213.184V208.605V204.094L127.309 196.937L120.871 190.831L115.574 180.113L121.57 176.653L128.008 178.587L135.145 181.097L140.221 171.87L141.472 164.306L137.021 155.352L127.824 159.626L118.664 163.899L109.504 168.105L97.6218 178.62L87.4686 188.389L78.1983 196.598L69.1119 202.364L59.3633 204.976L48.2537 203.585L34.9736 197.31Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M190.638 178.287C190.838 177.94 191.14 177.666 191.491 177.473C195.37 175.351 198 171.233 198 166.5C198 159.596 192.404 154 185.5 154C178.596 154 173 159.596 173 166.5C173 171.234 175.631 175.352 179.511 177.474C179.862 177.666 180.164 177.941 180.364 178.288L183.769 184.185C184.538 185.518 186.463 185.518 187.233 184.185L190.638 178.287Z"
+                                                fill="#118BDD" id="object-1"></path>
+                                            <rect x="180.031" y="161.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern4_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="2">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M308.375 222.784L322.758 227.091L337.068 232.892L352.261 240.49L362.488 235.877L371.795 228.584L381.397 221.291L388.165 219.222L395.155 217.221L402.126 215.508L399.937 199.074L397.399 191.069L390.63 182.792L378.527 176.28L370.287 168.343L365.542 151.078L364.291 149.924L363.04 148.771L361.826 147.618V146.465V145.277V144.124L363.298 143.073L364.953 142.869L368.374 143.378L366.572 127.979L362.488 120.652L354.873 116.921L358.405 105.727L357.485 100.029L351.562 95.4497L344.867 86.0879L336.921 76.5226L320.845 58.5113L314.665 57.9347L308.448 57.4259L302.231 56.951L293.844 51.1508L285.493 45.4184L277.142 39.7538L269.748 38.1257L261.876 37.0403L253.378 35.8108L252.642 49.387L253.341 60.9535L255.696 75.2676L256.247 95.2462L256.174 109.628L254.298 120.821L249.736 131.337L241.275 143.717L242.967 148.771L244.66 153.961L246.352 159.151L248.118 181.978L251.097 194.834L256.395 200.058L265.15 200.261L278.504 197.819L279.239 202.194L279.386 206.638L279.865 210.573L289.466 214.846L299.104 219.154L308.779 223.53"
+                                            fill="#F2F2F2"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M314.638 162.287C314.838 161.94 315.14 161.666 315.491 161.473C319.37 159.351 322 155.233 322 150.5C322 143.596 316.404 138 309.5 138C302.596 138 297 143.596 297 150.5C297 155.234 299.631 159.352 303.511 161.474C303.862 161.666 304.164 161.941 304.364 162.288L307.769 168.185C308.538 169.518 310.463 169.518 311.233 168.185L314.638 162.287Z"
+                                                fill="#118BDD" id="object-2"></path>
+                                            <rect x="304.031" y="145.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern4_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="3">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M910.743 254.905L925.917 264.098L943.17 265.726L959.835 265.081L959.577 261.554V257.382V253.752L967.339 240.964L971.533 227.363L975.322 209.284L979.847 193.613L980.803 179.706L978.927 166.85L975.028 154.47L969.841 142.055L964.213 128.86L977.125 115.835L987.352 112.647L1002.4 116.921L1006.81 110.985L1012 102.301L1013.51 94.466L1010.9 92.1595L1008.28 89.8869L1005.71 87.6821L1005.41 85.6469L1005.08 83.6457L1004.79 81.7123L1012.73 73.7751L1020.09 68.0427L1026.05 59.3254L1029.88 42.4674L1019.14 28.6622L1011.3 28.1534L1001.44 41.5177L994.268 39.0415L988.014 35.48L981.87 31.274L982.017 27.0679L982.974 22.1835L985.623 12.279L984.666 10.9562L983.783 9.59938L982.827 8.2426L972.306 14.6873L960.791 18.2149L950.234 19.2325L935.997 9.87074L920.951 3.9009L906.531 0.339355L895.053 9.05667L883.649 15.3657L873.459 26.0164L872.208 32.2915L870.958 38.6006L869.707 44.9774L868.309 44.6722L866.874 44.4347L865.513 44.1973L853.41 30.426L840.792 20.9963H827.365L811.179 19.8431L795.029 18.6898L778.917 17.5366L766.005 23.0994L752.982 28.1534L741.284 36.2601L747.39 46.4699L755.116 52.4397L763.981 58.5113L774.245 53.7965L784.839 51.8631L795.728 56.951L795.839 58.3417L795.986 59.7324L796.133 61.2249L791.056 70.892L786.274 81.4409L780.793 92.9396L784.619 94.7035L789.18 97.7562L792.454 103.183L789.989 108.271L788.077 113.291L787.304 120.143L792.638 122.28L798.634 126.316L802.276 134.864L808.457 137.646L814.637 140.461L820.817 143.378L830.86 152.163L842.889 153.927L854.919 162.305L854.367 166.579L853.852 170.853L853.41 175.059L858.229 176.45L863.122 177.84L867.941 179.333L865.844 184.895L862.46 187.168L859.002 187.066L864.41 208.47L875.63 221.393L888.726 228.991L898.07 241.134L904.103 248.766L910.743 254.905Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M903.638 126.287C903.838 125.94 904.14 125.666 904.491 125.473C908.37 123.351 911 119.233 911 114.5C911 107.596 905.404 102 898.5 102C891.596 102 886 107.596 886 114.5C886 119.234 888.631 123.352 892.511 125.474C892.862 125.666 893.164 125.941 893.364 126.288L896.769 132.185C897.538 133.518 899.463 133.518 900.233 132.185L903.638 126.287Z"
+                                                fill="#118BDD" id="object-3"></path>
+                                            <rect x="893.031" y="109.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern16_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="4">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M910.743 254.906L900.829 254.125L890.712 256.5L882.729 263.996L883.686 266.879L884.642 269.796L885.599 272.679L884.054 275.8L882.472 278.955L880.964 282.177L867.132 283.194L856.059 283.941L845.096 284.382L831.779 284.585L813.386 284.687H787.304L781.676 282.007L778.585 280.21L776.249 278.802L774.281 262.334L769.058 253.481L761.259 247.952L757.102 236.759L752.761 229.432L746.323 224.785L729.622 222.682L713.178 219.799L696.992 215.491L681.1 209.114L665.263 200.21L671.131 182.521L674.846 170.649L678.819 156.132L674.626 149.823L671.425 146.974L667.231 144.972L677.421 140.054L689.009 137.883L700.707 130.624L700.855 127.402L701.002 124.248L701.222 121.127L713.031 106.982L724.435 96.23L737.936 89.4461L738.598 85.6132L738.672 83.2049L738.451 80.1861L741.394 79.779L744.337 79.4398L747.28 79.2024L757.911 84.833L769.352 91.0403L780.719 92.8211L784.619 94.7036L789.18 97.7564L792.454 103.184L789.989 108.271L788.076 113.292L787.304 120.143L792.638 122.28L798.634 126.317L802.276 134.864L808.456 137.646L814.637 140.461L820.817 143.378L830.86 152.163L842.889 153.927L854.918 162.305L854.367 166.579L853.852 170.853L853.41 175.059L858.229 176.45L863.122 177.84L867.941 179.333L865.844 184.896L862.46 187.168L859.002 187.067L864.41 208.47L875.63 221.393L888.726 228.991L898.07 241.134L904.103 248.766L910.743 254.906Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M792.638 196.287C792.838 195.94 793.14 195.666 793.491 195.473C797.37 193.351 800 189.233 800 184.5C800 177.596 794.404 172 787.5 172C780.596 172 775 177.596 775 184.5C775 189.234 777.631 193.352 781.511 195.474C781.862 195.666 782.164 195.941 782.364 196.288L785.769 202.185C786.538 203.518 788.463 203.518 789.233 202.185L792.638 196.287Z"
+                                                fill="#118BDD" id="object-4"></path>
+                                            <rect x="782.031" y="179.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern15_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="5">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M393.242 372.182L395.376 371.012L397.546 369.079L399.606 367.79L409.244 350.118L418.515 339.128L431.611 332.412L429.772 330.987L427.711 329.63L425.651 328.375L425.762 326.849L425.909 325.323L426.056 323.932L428.705 320.811L431.353 317.758L434.039 314.638L433.561 311.178L433.046 307.752L432.604 304.394L427.16 295.677L425.394 285.026L424.695 271.933L416.933 269.525L413.843 263.962L412.629 251.242L411.01 248.325L409.502 245.51L407.994 242.728L407.111 232.146L404.867 223.564L402.126 215.508L395.155 217.221L388.165 219.222L381.397 221.291L371.795 228.584L362.488 235.877L352.261 240.49L337.068 232.892L322.758 227.092L308.871 223.157L317.866 234.622L321.802 247.952L320.698 263.08L314.04 279.701L323.751 283.127L333.463 285.772L343.212 287.977L342.734 292.115L341.262 299.171L340.416 306.904L347.442 312.467L356.933 319.014L362.782 323.932L361.385 331.665L359.95 339.467L358.626 347.302L368.411 357.953L380.477 364.907L393.242 372.182Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M388.638 293.287C388.838 292.94 389.14 292.666 389.491 292.473C393.37 290.351 396 286.233 396 281.5C396 274.596 390.404 269 383.5 269C376.596 269 371 274.596 371 281.5C371 286.234 373.631 290.352 377.511 292.474C377.862 292.666 378.164 292.941 378.364 293.288L381.769 299.185C382.538 300.518 384.463 300.518 385.233 299.185L388.638 293.287Z"
+                                                fill="#118BDD" id="object-5"></path>
+                                            <rect x="378.031" y="276.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern3_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="6">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M636.808 417.651L626.986 416.803L617.421 416.125L608.114 414.022L605.907 408.222L603.737 402.489L601.566 396.825L595.349 398.216L589.61 400.59L584.313 399.335V395.841V392.415V389.091L569.635 383.528L555.398 383.087L541.419 383.969L527.753 382.511L519.016 367.552L510.003 353.645L500.586 342.113L494.81 339.06L488.814 335.939L482.983 332.802L484.105 330.648L485.246 328.375L484.731 308.668L486.423 296.762L494.038 286.417L493.155 283.262L492.898 280.786L493.155 276.953L499.777 272.51L503.419 269.389L507.06 264.98L514.823 255.38L525.822 253.074L538.366 255.279L550.579 259.315L560.586 262.436L561.652 259.247L562.756 256.093L563.86 252.972L565.368 254.363L566.913 255.753L568.495 257.246L568.421 260.943L568.09 262.707L567.134 263.996L571.842 268.846L576.698 273.697L581.517 278.717L588.617 280.006L599.469 280.616L611.83 279.361L623.528 274.952L632.173 266.235L635.521 251.988L633.828 251.242L632.504 249.478L630.518 245.238L630.812 244.085L631.106 242.898L631.474 241.745L629.23 238.081L627.096 234.418L624.926 230.755L625.662 229.602L626.361 228.448L627.133 227.295L632.247 230.28L637.912 231.637L643.945 228.991L644.092 227.295L644.276 225.599L644.497 224.005L640.524 219.019L636.587 214.1L632.725 209.284L632.578 200.295L631.364 195.716L628.09 192.087L628.825 189.576L629.635 187.066L630.518 184.556L644.129 188.932L650.787 191.578L656.048 194.766L656.452 201.347L658.071 206.468L662.154 208.504L663.148 205.62L664.104 202.941L665.263 200.21L681.1 209.114L696.992 215.491L713.178 219.799L729.622 222.682L746.323 224.785L752.761 229.432L757.102 236.759L761.258 247.952L769.057 253.481L774.281 262.334L776.157 279.463L771.485 284.551L766.813 289.707L762.178 294.931L747.39 293.845L733.153 292.454L719.321 287.977L709.977 277.462L701.664 275.088L692.835 284.687L696.697 298.831L700.597 313.111L704.496 327.392L704.349 335.329L704.165 343.3L704.091 351.373L696.808 363.516L683.969 374.336L668.923 383.427L654.797 390.516L644.901 395.264L642.657 403.677L640.376 410.935L636.808 417.651Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M629.638 325.287C629.838 324.94 630.14 324.666 630.491 324.473C634.37 322.351 637 318.233 637 313.5C637 306.596 631.404 301 624.5 301C617.596 301 612 306.596 612 313.5C612 318.234 614.631 322.352 618.511 324.474C618.862 324.666 619.164 324.941 619.364 325.288L622.769 331.185C623.538 332.518 625.463 332.518 626.233 331.185L629.638 325.287Z"
+                                                fill="#118BDD" id="object-6"></path>
+                                            <rect x="619.031" y="308.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern2_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="7">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M263.182 408.141L250.913 399.335L241.385 399.64L229.614 406.288H214.752L200.331 404.931L185.58 407.475L171.858 408.9L162.808 405.881L153.759 391.771L153.648 387.87L153.06 384.987L151.441 380.543L150.779 379.526L150.301 377.999L150.062 375.888L151.441 374.607L152.398 372.81L153.207 370.3L165.163 365.212L172.005 355.545L175.574 335.329L182.269 330.512L188.817 326.51L196.101 323.932L210.19 329.393L224.942 332.751L240.061 335.973L255.254 341.129L254.739 344.249L254.261 347.404L253.783 350.592L260.883 355.986L267.32 358.971L275.781 359.31L275.892 360.87L276.039 362.6L276.186 364.33L281.115 368.264L286.082 372.233L291.011 376.337L294.837 381.629L298.7 386.479L302.654 391.033L290.202 399.742L275.009 405.305L263.182 408.141Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M218.638 371.287C218.838 370.94 219.14 370.666 219.491 370.473C223.37 368.351 226 364.233 226 359.5C226 352.596 220.404 347 213.5 347C206.596 347 201 352.596 201 359.5C201 364.234 203.631 368.352 207.511 370.474C207.862 370.666 208.164 370.941 208.364 371.288L211.769 377.185C212.538 378.518 214.463 378.518 215.233 377.185L218.638 371.287Z"
+                                                fill="#118BDD" id="object-7"></path>
+                                            <rect x="208.031" y="354.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern7_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="8">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M499.096 438.58L505.258 431.185L511.365 422.977L521.518 408.798L520.856 407.645L520.267 406.526L519.716 405.508L519.789 403.371L519.936 401.336L520.157 399.335L522.475 396.825L524.792 394.281L527.11 391.771L527.183 388.582L527.294 385.428L527.753 382.511L519.017 367.552L510.004 353.645L500.586 342.113L494.811 339.06L488.814 335.939L482.951 332.924L471.672 338.246L460.746 335.295L450.262 332.649L443.64 336.312L437.607 335.566L431.703 332.361L418.515 339.128L409.244 350.118L399.606 367.79L397.546 369.079L395.376 371.012L393.5 372.513L398.135 375.897L401.298 381.934L402.733 390.787L401.041 392.992L399.349 395.265L397.693 397.571L406.191 406.153L415.388 410.698L424.989 412.835L434.701 414.293L444.376 416.871L453.683 422.197L462.328 431.965L474.651 434.17L486.902 436.443L499.096 438.58Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M475.638 386.287C475.838 385.94 476.14 385.666 476.491 385.473C480.37 383.351 483 379.233 483 374.5C483 367.596 477.404 362 470.5 362C463.596 362 458 367.596 458 374.5C458 379.234 460.631 383.352 464.511 385.474C464.862 385.666 465.164 385.941 465.364 386.288L468.769 392.185C469.538 393.518 471.463 393.518 472.233 392.185L475.638 386.287Z"
+                                                fill="#118BDD" id="object-8"></path>
+                                            <rect x="465.031" y="369.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern1_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="9">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M765.434 470.464L756.182 475.348L746.728 475.755L737.09 474.704L732.638 481.183L728.187 485.49L722.596 488.374L710.677 479.928L699.309 470.43L689.561 459.237L686.765 463.511L683.601 468.259L680.989 472.804L670.799 462.154L660.941 450.655L652.774 437.019L654.797 434.475L656.747 431.965L658.77 429.489V427.929V426.47V425.012L651.523 420.806L644.092 418.499L636.716 417.516L640.377 410.935L642.657 403.676L644.901 395.264L654.797 390.516L668.923 383.426L683.969 374.336L696.808 363.516L704.092 351.373L704.165 343.3L704.349 335.329L704.496 327.391L700.597 313.111L696.697 298.831L692.835 284.687L701.664 275.088L709.977 277.462L719.321 287.977L733.153 292.454L747.39 293.845L762.178 294.93L766.813 289.707L771.485 284.551L776.249 278.802L778.585 280.209L781.675 282.007L787.304 284.687H813.386L831.779 284.585L845.096 284.381L856.059 283.941L867.131 283.194L880.963 282.177L882.472 278.954L884.053 275.8L885.598 272.679L884.642 269.796L883.686 266.879L882.729 263.996L890.712 256.5L900.828 254.125L910.908 254.736L925.917 264.098L943.17 265.726L960.092 264.979L958.841 270.373L957.554 275.8L956.303 281.227L960.129 284.314L963.992 287.434L967.891 290.691L967.744 293.472L967.56 296.287L967.486 299.17L964.948 300.561L962.557 301.952L959.982 303.699C958.708 303.424 957.539 302.911 956.371 302.392C955.87 302.166 955.369 301.94 954.868 301.714C953.691 296.785 952.514 291.855 951.337 286.925C949.522 284.054 947.707 281.182 945.892 278.31C943.158 278.694 940.423 279.079 937.689 279.463C938.82 281.7 939.956 283.934 941.085 286.172C942.234 288.832 943.382 291.491 944.531 294.15C945.071 297.248 945.61 300.346 946.15 303.444C944.22 303.468 942.289 303.487 940.36 303.514C939.355 303.664 938.347 303.803 937.344 303.959C936.392 304.364 935.44 304.769 934.488 305.174C934.725 305.867 934.953 306.565 935.196 307.255C935.605 307.846 936.006 308.442 936.421 309.029C937.297 310.005 938.173 310.982 939.05 311.958C938.963 315.151 938.881 318.345 938.79 321.538C938.411 323.851 938.031 326.164 937.652 328.477C936.597 331.27 935.543 334.062 934.488 336.855C932.118 338.441 929.746 340.024 927.377 341.613C925.449 343.257 923.518 344.897 921.592 346.542C918.411 349.634 915.229 352.725 912.048 355.816C908.075 357.455 904.102 359.095 900.129 360.734C897.652 363.459 895.175 366.184 892.698 368.909C891.239 375.365 889.78 381.821 888.321 388.277C887.264 389.879 886.201 391.476 885.164 393.09C884.197 394.594 883.2 396.079 882.214 397.571C878.29 395.592 874.366 393.614 870.442 391.635C866.133 391.104 861.825 390.569 857.515 390.041C853.126 389.983 848.735 389.93 844.346 389.869C840.169 389.327 835.993 388.785 831.816 388.243C828.149 386.264 824.483 384.286 820.817 382.307C820.355 380.575 819.903 378.84 819.418 377.115C819.072 375.843 818.709 374.575 818.342 373.309C818.223 372.894 818.103 372.479 817.984 372.063C814.514 370.899 811.044 369.734 807.573 368.57C803.993 369.022 800.412 369.474 796.831 369.927C794.146 372.9 791.461 375.874 788.775 378.847C788.684 381.591 788.603 384.335 788.492 387.078C788.451 388.24 788.395 389.403 788.364 390.566C788.33 392.392 788.295 394.218 788.26 396.045C786.298 397.684 784.336 399.323 782.374 400.963C780.756 401.517 779.137 402.071 777.518 402.625C775.483 402.682 773.447 402.738 771.412 402.795C770.234 404.405 769.062 406.019 767.868 407.616C767.247 408.448 766.629 409.281 766.028 410.127C765.518 410.837 765.007 411.548 764.496 412.258C765.587 416.362 766.678 420.467 767.77 424.571C769.476 426.811 771.177 429.055 772.887 431.292C775.069 434.106 777.25 436.919 779.431 439.733C778.524 441.972 777.616 444.21 776.709 446.449C775.16 448.442 773.615 450.438 772.064 452.429C770.632 453.862 769.201 455.294 767.77 456.727C767.421 458.388 767.059 460.047 766.718 461.711C766.253 464.03 765.789 466.35 765.307 468.666C765.184 469.265 765.557 469.865 765.434 470.464Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M718.638 409.287C718.838 408.94 719.14 408.666 719.491 408.473C723.37 406.351 726 402.233 726 397.5C726 390.596 720.404 385 713.5 385C706.596 385 701 390.596 701 397.5C701 402.234 703.631 406.352 707.511 408.474C707.862 408.666 708.164 408.941 708.364 409.288L711.769 415.185C712.538 416.518 714.463 416.518 715.233 415.185L718.638 409.287Z"
+                                                fill="#118BDD" id="object-9"></path>
+                                            <rect x="708.031" y="392.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern14_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="10">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M764.938 470.464C765.061 469.865 765.184 469.265 765.308 468.666C765.789 466.35 766.254 464.03 766.719 461.711C767.06 460.048 767.421 458.388 767.77 456.727C769.201 455.294 770.633 453.862 772.064 452.429C773.615 450.438 775.16 448.442 776.709 446.449C777.617 444.21 778.524 441.972 779.432 439.733C777.25 436.919 775.069 434.106 772.888 431.292C771.177 429.055 769.477 426.811 767.77 424.571C766.679 420.467 765.587 416.363 764.496 412.258C765.007 411.548 765.518 410.838 766.029 410.127C766.629 409.281 767.248 408.448 767.868 407.616C769.063 406.019 770.234 404.405 771.412 402.795C773.448 402.738 775.483 402.682 777.519 402.625C779.137 402.071 780.756 401.517 782.375 400.963C784.337 399.324 786.298 397.684 788.26 396.045C788.295 394.218 788.33 392.392 788.365 390.566C788.395 389.403 788.451 388.24 788.492 387.078C788.604 384.335 788.684 381.591 788.775 378.848C791.461 375.874 794.146 372.9 796.832 369.927C800.412 369.474 803.993 369.022 807.574 368.57C811.044 369.734 814.514 370.899 817.984 372.064C818.104 372.479 818.223 372.894 818.343 373.309C818.71 374.575 819.072 375.843 819.418 377.115C819.903 378.841 820.355 380.575 820.817 382.307C824.483 384.286 828.15 386.265 831.816 388.243C835.993 388.785 840.17 389.327 844.346 389.869C848.736 389.93 853.126 389.983 857.516 390.041C861.825 390.569 866.134 391.104 870.443 391.635C874.367 393.614 878.29 395.592 882.214 397.571C883.201 396.079 884.198 394.595 885.164 393.09C886.202 391.476 887.265 389.879 888.321 388.277C889.78 381.821 891.239 375.365 892.699 368.909C895.176 366.184 897.653 363.459 900.13 360.734C904.103 359.095 908.076 357.456 912.049 355.816C915.23 352.725 918.411 349.634 921.592 346.543C923.518 344.897 925.45 343.257 927.378 341.613C929.746 340.025 932.119 338.442 934.489 336.855C935.543 334.062 936.598 331.27 937.652 328.477C938.032 326.164 938.411 323.851 938.79 321.538C938.881 318.345 938.963 315.151 939.05 311.958C938.174 310.982 937.297 310.005 936.421 309.029C936.007 308.442 935.605 307.846 935.196 307.255C934.953 306.565 934.726 305.867 934.489 305.174C935.441 304.769 936.393 304.364 937.345 303.959C938.348 303.804 939.355 303.664 940.36 303.514C942.29 303.487 944.22 303.468 946.15 303.444C945.611 300.346 945.071 297.248 944.532 294.15C943.383 291.491 942.234 288.832 941.085 286.172C939.956 283.934 938.821 281.7 937.689 279.463C940.424 279.079 943.158 278.694 945.893 278.31C947.707 281.182 949.522 284.054 951.337 286.926C952.514 291.855 953.691 296.785 954.869 301.715C955.37 301.941 955.87 302.167 956.371 302.393C957.539 302.911 958.709 303.424 959.872 303.953L970.798 308.905L977.677 312.467L985.623 317.148H991.214L997.505 318.03L1002.88 322.405L1000.15 325.492L997.542 328.613L994.893 331.869L992.833 347.981L993.274 365.517L997.284 381.527L1012.15 383.393L1018.29 384.716L1020.94 386.581L1021.6 392.551L1022.26 398.555L1022.85 404.525L1018.18 402.218L1013.51 399.878L1008.87 397.571L1008.28 400.726L1008.43 406.322L1009.42 419.212L1004.2 427.556L999.16 433.661L993.127 438.749V439.597V440.513V441.497L995.849 445.16L998.608 448.823L1001.44 452.487L997.946 456.421L994.599 460.39L991.214 464.494L991.178 471.346L989.743 476.875L987.425 483.218H981.87H976.279H970.761L968.627 485.965L965.721 490.273L961.38 495.191L953.177 493.394L948.173 494.717L941.809 502.145L933.238 493.428L927.793 494.411L922.165 501.772L913.005 512.389L912.711 516.086L912.417 519.817L912.049 523.616L911.46 524.227L910.798 524.769L910.173 525.38L909.952 527.822L910.357 529.789L911.644 532.876L908.775 534.267L905.832 535.657L902.484 536.879L895.862 533.894L886.151 529.281L874.526 524.125L862.092 519.749L850.099 517.341L839.578 518.087L831.743 523.243L827.696 534.063L820.56 530.536L814.637 525.142L808.751 519.173L799.481 516.764L795.36 515.272L792.896 513.372L785.759 495.7L775.201 480.674L764.938 470.464Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M950.638 429.287C950.838 428.94 951.14 428.666 951.491 428.473C955.37 426.351 958 422.233 958 417.5C958 410.596 952.404 405 945.5 405C938.596 405 933 410.596 933 417.5C933 422.234 935.631 426.352 939.511 428.474C939.862 428.666 940.164 428.941 940.364 429.288L943.769 435.185C944.538 436.518 946.463 436.518 947.233 435.185L950.638 429.287Z"
+                                                fill="#118BDD" id="object-10"></path>
+                                            <rect x="940.031" y="412.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern17_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="11">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M681.137 472.974L670.799 462.154L660.941 450.655L652.774 437.02L654.797 434.476L656.747 431.966L658.77 429.489V427.929V426.471V425.012L651.523 420.806L644.092 418.5L636.624 417.38L626.986 416.804L617.422 416.125L608.115 414.022L605.907 408.222L603.737 402.49L601.566 396.825L595.349 398.216L589.611 400.59L584.313 399.335V395.841V392.415V389.091L569.635 383.528L555.399 383.088L541.42 383.969L527.514 382.307L527.294 385.428L527.183 388.583L527.11 391.771L524.792 394.281L522.474 396.825L520.157 399.335L519.936 401.336L519.789 403.371L519.715 405.508L520.267 406.526L520.856 407.645L521.518 408.799L511.365 422.977L505.258 431.185L499.096 438.58L497.055 449.841V460.628L497.846 473.958L502.941 475.111L508.9 476.264L514.455 477.418L521.481 486.406L528.508 490.273L538.33 488.408L540.61 476.129L542.082 470.159L543.885 465.41L559.776 468.802L577.25 479.148L592.774 491.155L594.099 495.802L595.055 501.297L596.453 512.389L604.509 521.988L615.619 528.636L626.361 534.979L631.953 535.59L633.755 537.795L636.293 540.271L644.828 538.405L652.332 532.435L657.924 520.937L653.73 509.336L653.031 502.179L656.968 492.682L664.987 486.101L673.044 479.555L681.137 472.974Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M604.638 447.287C604.838 446.94 605.14 446.666 605.491 446.473C609.37 444.351 612 440.233 612 435.5C612 428.596 606.404 423 599.5 423C592.596 423 587 428.596 587 435.5C587 440.234 589.631 444.352 593.511 446.474C593.862 446.666 594.164 446.941 594.364 447.288L597.769 453.185C598.538 454.518 600.463 454.518 601.233 453.185L604.638 447.287Z"
+                                                fill="#118BDD" id="object-11"></path>
+                                            <rect x="594.031" y="430.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern13_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="12">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M421.256 564.54L416.455 560.758L411.452 556.722L406.522 552.821L406.338 549.904L406.191 547.021L406.081 544.104L402.954 542.95L399.79 541.797L396.737 540.644L395.155 544.104L393.61 547.597L392.102 551.057L387.577 550.684L383.052 550.379L380.03 550.26L382.059 530.807L382.5 517.409L381.103 506.724L377.571 495.361L371.648 479.928L365.1 467.581L358.626 455.404L352.078 443.193L352.924 435.765L354.174 431.253L356.713 425.996V419.789V413.242L356.271 407.154L357.485 406.323L359.214 405.441L360.906 404.525L368.117 392.483L374.003 390.109L384.119 390.787L388.717 386.581L393.095 380.272L393.408 372.454L398.135 375.897L401.299 381.934L402.733 390.787L401.041 392.992L399.349 395.265L397.693 397.571L406.191 406.153L415.388 410.698L424.989 412.835L434.701 414.294L444.376 416.872L453.683 422.197L462.328 431.966L474.652 434.17L486.902 436.443L499.225 438.75L497.055 449.841V460.628L498.269 473.958H496.724H495.142H493.634L494.848 483.252L496.062 492.682L497.313 502.145L498.379 503.163L499.483 504.282L500.587 505.435L499.777 507.437L499.042 509.506L498.269 511.643L496.356 512.219L494.517 512.796L492.677 513.373L492.236 523.243L489.109 529.043L483.775 533.86L477.043 548.615L469.06 553.669L457.693 555.161L447.135 548.852L436.872 545.562L427.859 549.361L421.256 564.54Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M430.638 470.287C430.838 469.94 431.14 469.666 431.491 469.473C435.37 467.351 438 463.233 438 458.5C438 451.596 432.404 446 425.5 446C418.596 446 413 451.596 413 458.5C413 463.234 415.631 467.352 419.511 469.474C419.862 469.666 420.164 469.941 420.364 470.288L423.769 476.185C424.538 477.518 426.463 477.518 427.233 476.185L430.638 470.287Z"
+                                                fill="#118BDD" id="object-12"></path>
+                                            <rect x="420.031" y="453.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern0_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="13">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M242.452 499.923L246.903 488.475L253.378 477.655L259.889 467.954L260.846 463.646L261.177 457.812L261.25 445.533L260.331 431.796L261.25 420.06L263.004 408.141L275.009 405.305L290.202 399.742L302.783 391.143L314.996 402.591L327.835 409.409L341.299 411.071L356.271 407.153L356.712 413.242V419.788V425.996L354.174 431.253L352.923 435.764L352.077 443.193L358.625 455.404L365.1 467.581L371.648 479.928L377.571 495.361L381.102 506.724L382.5 517.409L382.059 530.807L380.03 550.438L375.658 554.652L371.685 555.093L367.969 554.347L367.417 552.889L366.902 551.498L366.461 550.107L357.853 550.175L353.99 550.616L351.562 551.871L341.85 560.656L327.688 558.587L315.805 554.347L310.177 542.34L304.585 530.4L298.994 518.426L293.991 517.477L288.988 516.662L284.058 515.882L283.102 511.235L282.219 506.69L281.373 502.145L268.277 501.263L255.254 500.415L242.452 499.923Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M326.638 471.287C326.838 470.94 327.14 470.666 327.491 470.473C331.37 468.351 334 464.233 334 459.5C334 452.596 328.404 447 321.5 447C314.596 447 309 452.596 309 459.5C309 464.234 311.631 468.352 315.511 470.474C315.862 470.666 316.164 470.941 316.364 471.288L319.769 477.185C320.538 478.518 322.463 478.518 323.233 477.185L326.638 471.287Z"
+                                                fill="#118BDD" id="object-13"></path>
+                                            <rect x="316.031" y="454.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern12_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="14">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M172.152 541.678L173.844 537.489L174.985 532.198L176.125 527.89L169.945 522.734L163.507 521.75L156.358 521.886L155.635 520.122L154.678 518.426L153.759 516.662L154.678 514.933L155.635 513.237L156.591 511.642L163.213 513.406L168.658 514.051L177.486 514.152L178.112 511.337V507.742L177.486 500.415L174.028 483.354L173.109 468.022L174.396 453.81L177.302 440.276L181.423 426.878L186.315 413.072L185.984 411.105L185.69 409.172L185.58 407.476L200.331 404.932L214.752 406.288H229.614L241.385 399.64L250.913 399.335L263.163 408.018L261.25 420.06L260.331 431.796L261.25 445.533L261.177 457.812L260.846 463.646L259.889 467.954L253.378 477.655L246.903 488.475L242.452 499.923L242.342 503.298L242.489 506.995L242.673 510.659L249.221 513.779L256.174 515.916L261.802 522.632L259.264 528.059L256.762 533.554L254.334 539.117L247.97 537.93L243.593 538.507L238.847 543.154L233.918 543.73L228.988 544.307L224.059 544.884L221.153 548.377L218.283 552.38L215.634 555.161L200.331 551.26L188.927 547.733L172.152 541.678Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M223.638 488.287C223.838 487.94 224.14 487.666 224.491 487.473C228.37 485.351 231 481.233 231 476.5C231 469.596 225.404 464 218.5 464C211.596 464 206 469.596 206 476.5C206 481.234 208.631 485.352 212.511 487.474C212.862 487.666 213.164 487.941 213.364 488.288L216.769 494.185C217.538 495.518 219.463 495.518 220.233 494.185L223.638 488.287Z"
+                                                fill="#118BDD" id="object-14"></path>
+                                            <rect x="213.031" y="471.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern8_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="15">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M156.591 521.886V524.634V527.517V530.4L149.087 534.097L141.398 530.162L134.188 525.38L128.413 535.149L122.637 539.49L115.132 540.644L113.514 538.303L112.153 536.031L110.975 533.86L113.036 514.492L111.454 506.928L102.956 500.415L85.0407 494.683L71.8709 490.511L62.8398 486.678L64.2193 484.371L65.5804 481.522L66.684 478.198L61.4235 464.63L55.1697 456.15L47.9962 448.993L52.2267 439.122L53.6614 430.778L54.0661 419.212L50.4978 412.496L46.9294 405.915L43.3611 399.335L47.3341 389.77L52.705 381.9L58.5909 377.118L63.9986 377.016L67.898 383.053L69.4798 396.825L76.6901 400.726L84.1578 403.507L92.3613 405.508L96.8861 385.665L100.602 368.298L110.461 358.326L118.039 366.603L127.199 373.692L136.506 381.527L137.573 380.95L138.603 380.374L139.78 379.797L139.89 377.66L139.964 375.591L140.184 373.59L143.458 375.116L147.027 376.609L150.062 375.888L150.301 377.999L150.779 379.526L151.441 380.543L153.06 384.987L153.648 387.87L153.759 391.771L162.808 405.881L171.858 408.9L185.396 407.272L185.69 409.172L185.984 411.105L186.315 413.072L181.423 426.877L177.302 440.276L174.396 453.81L173.109 468.022L174.028 483.354L177.486 500.415L178.112 507.742V511.337L177.486 514.152L168.657 514.051L163.213 513.406L156.591 511.642L155.635 513.237L154.678 514.933L153.759 516.662L154.678 518.426L155.635 520.122L156.591 521.886Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M134.638 455.287C134.838 454.94 135.14 454.666 135.491 454.473C139.37 452.351 142 448.233 142 443.5C142 436.596 136.404 431 129.5 431C122.596 431 117 436.596 117 443.5C117 448.234 119.631 452.352 123.511 454.474C123.862 454.666 124.164 454.941 124.364 455.288L127.769 461.185C128.538 462.518 130.463 462.518 131.233 461.185L134.638 455.287Z"
+                                                fill="#118BDD" id="object-15"></path>
+                                            <rect x="124.031" y="438.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern9_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="16">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M62.84 486.678L71.8711 490.511L85.0409 494.683L102.956 500.415L111.454 506.928L113.036 514.492L110.976 533.86L112.153 536.031L113.514 538.303L115.133 540.644L122.637 539.49L128.413 535.149L134.188 525.38L141.398 530.163L149.087 534.097L156.592 530.4V527.517V524.634L156.358 521.886L163.507 521.75L169.945 522.734L176.125 527.89L174.985 532.198L173.845 537.489L172.152 541.678C170.913 544.288 170.298 547.153 169.686 550.018C169.134 553.204 168.583 556.391 168.031 559.577C167.43 561.825 166.83 564.073 166.23 566.321C163.274 568.661 160.319 571.002 157.364 573.342C154.421 573.693 151.478 574.043 148.535 574.394C145.617 574.258 142.698 574.122 139.78 573.987C136.947 574.891 134.115 575.796 131.282 576.7C128.535 580.137 125.789 583.574 123.042 587.012C123.054 588.463 123.068 589.914 123.078 591.366C122.98 592.982 122.881 594.599 122.784 596.216C122.797 597.693 122.809 599.17 122.803 600.478L118.848 599.392L114.47 598.375L109.541 597.255L98.0267 594.644L88.131 595.966L77.6467 600.274L71.724 594.203L66.0588 583.62L61.9755 575.038L46.3778 566.321L31.2952 562.759L16.3596 568.085L10.6209 574.767L8.52402 576.022L7.64113 576.632L4.29352 573.376L2.71169 570.866L1.57129 567.101L7.64113 556.857L14.1892 548.276L20.6637 539.117L22.4295 518.189L26.4025 508.454L35.9303 496.955L44.9799 495.836L54.4709 493.428L62.84 486.678Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M89.638 554.287C89.8381 553.94 90.1399 553.666 90.491 553.473C94.3696 551.351 97 547.233 97 542.5C97 535.596 91.4036 530 84.5 530C77.5964 530 72 535.596 72 542.5C72 547.234 74.6311 551.352 78.5105 553.474C78.8617 553.666 79.1637 553.941 79.3638 554.288L82.7686 560.185C83.5384 561.518 85.4629 561.518 86.2327 560.185L89.638 554.287Z"
+                                                fill="#118BDD" id="object-16"></path>
+                                            <rect x="79.0312" y="537.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern10_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <g class="objects__group" data-order="17">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M318.013 616.793L328.681 621.474L339.092 627.546L350.606 630.497L353.99 627.037L357.448 623.611L360.906 620.253L371.722 621.61H383.052L393.058 614.283L393.426 603.904L393.757 598.782L394.419 594.576L403.837 588.538L412.518 581.619L421.016 571.578L421.127 569.238L421.274 566.965L421.421 564.794L416.455 560.758L411.452 556.722L406.522 552.821L406.338 549.904L406.191 547.021L406.081 544.104L402.954 542.95L399.79 541.797L396.737 540.644L395.155 544.104L393.61 547.597L392.102 551.057L387.577 550.684L383.052 550.379L379.987 550.285L375.658 554.653L371.685 555.093L367.969 554.347L367.418 552.889L366.903 551.498L366.461 550.107L357.853 550.175L353.99 550.616L351.562 551.871L341.851 560.656L327.688 558.587L315.805 554.347L310.177 542.34L304.585 530.4L298.994 518.426L293.991 517.477L288.988 516.663L284.058 515.882L283.102 511.236L282.219 506.69L281.373 502.145L268.277 501.263L255.254 500.415L242.232 499.635L242.342 503.298L242.489 506.996L242.673 510.659L249.221 513.779L256.174 515.916L261.802 522.632L259.264 528.06L256.762 533.555L254.334 539.117L247.97 537.93L243.593 538.507L238.847 543.154L233.918 543.73L228.988 544.307L224.059 544.884L221.153 548.377L218.283 552.38L215.635 555.161L200.331 551.261L188.927 547.733L171.527 541.424C170.913 544.289 170.298 547.153 169.686 550.018C169.134 553.204 168.583 556.391 168.031 559.577C167.43 561.825 166.83 564.073 166.23 566.321C163.274 568.661 160.319 571.002 157.364 573.342C154.421 573.693 151.478 574.043 148.535 574.394C145.617 574.258 142.698 574.122 139.78 573.987C136.947 574.891 134.115 575.796 131.282 576.7C128.535 580.137 125.789 583.575 123.042 587.012C123.054 588.463 123.068 589.914 123.078 591.366C122.98 592.983 122.881 594.599 122.784 596.216C122.797 597.693 122.809 599.17 122.803 600.478L142.392 604.921L154.899 607.262L169.099 609.263L179.326 620.083L190.178 628.97L201.251 639.044L201.876 641.351L202.502 643.691L203.164 645.998L202.502 648.169L201.876 650.441L201.251 652.782L211.882 662.042L225.383 666.35L238.443 669.199L239.804 671.98L240.65 675.304L241.717 681.953L246.205 685.752L251.428 688.974L261.986 694.401L269.785 693.723L277.032 691.62L284.022 688.329L290.496 687.414L298.001 687.21L304.88 692.502L311.943 687.787L315.474 676.152L315.29 661.431L313.378 659.125L311.538 656.818L309.736 654.478L309.515 651.425L309.405 648.304L309.257 645.218L311.428 641.419L313.598 637.688L315.806 633.99L313.451 630.87L312.421 628.868L312.053 626.291L314.04 623.034L316.026 619.88L318.013 616.793Z"
+                                            fill="#F2F2F2" stroke="#CDCDCD" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-dasharray="10 10"></path>
+                                        <g class="objects__group-label">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M264.638 594.287C264.838 593.94 265.14 593.666 265.491 593.473C269.37 591.351 272 587.233 272 582.5C272 575.596 266.404 570 259.5 570C252.596 570 247 575.596 247 582.5C247 587.234 249.631 591.352 253.511 593.474C253.862 593.666 254.164 593.941 254.364 594.288L257.769 600.185C258.538 601.518 260.463 601.518 261.233 600.185L264.638 594.287Z"
+                                                fill="#118BDD" id="object-17"></path>
+                                            <rect x="254.031" y="577.031" width="10.9375" height="10.9375"
+                                                fill="url(#pattern11_16_94)"></rect>
+                                        </g>
+                                    </g>
+                                    <defs>
+                                        <pattern id="pattern0_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern1_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern2_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern3_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern4_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern5_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern6_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern7_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern8_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern9_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern10_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern11_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern12_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern13_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern14_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern15_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern16_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <pattern id="pattern17_16_94" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_16_94" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <clipPath id="clip0_16_94">
+                                            <rect width="1030" height="693.952" fill="white"></rect>
+                                        </clipPath>
+                                        <pattern id="pattern0_39_252" patternContentUnits="objectBoundingBox" width="1"
+                                            height="1">
+                                            <use xlink:href="#image0_39_252" transform="scale(0.0714286)"></use>
+                                        </pattern>
+                                        <image id="image0_39_252" width="14" height="14"
+                                            xlink:href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxMSAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CjxtYXNrIGlkPSJtYXNrMF8zOV8yNTIiIHN0eWxlPSJtYXNrLXR5cGU6YWxwaGEiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9IjAiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSI+CjxyZWN0IHg9IjAuMDMxMjUiIHk9IjAuMDMxMjUiIHdpZHRoPSIxMC45Mzc1IiBoZWlnaHQ9IjEwLjkzNzUiIGZpbGw9InVybCgjcGF0dGVybjBfMzlfMjUyKSIvPgo8L21hc2s+CjxnIG1hc2s9InVybCgjbWFzazBfMzlfMjUyKSI+CjxyZWN0IHg9Ii0xIiB5PSItMSIgd2lkdGg9IjEzIiBoZWlnaHQ9IjEzIiBmaWxsPSIjMTE4QkREIi8+CjwvZz4KPGRlZnM+CjxwYXR0ZXJuIGlkPSJwYXR0ZXJuMF8zOV8yNTIiIHBhdHRlcm5Db250ZW50VW5pdHM9Im9iamVjdEJvdW5kaW5nQm94IiB3aWR0aD0iMSIgaGVpZ2h0PSIxIj4KPHVzZSB4bGluazpocmVmPSIjaW1hZ2UwXzM5XzI1MiIgdHJhbnNmb3JtPSJzY2FsZSgwLjA3MTQyODYpIi8+CjwvcGF0dGVybj4KPGltYWdlIGlkPSJpbWFnZTBfMzlfMjUyIiB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHhsaW5rOmhyZWY9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBQTRBQUFBT0NBWUFBQUFmU0MzUkFBQUFDWEJJV1hNQUFBc1RBQUFMRXdFQW1wd1lBQUFGSEdsVVdIUllUVXc2WTI5dExtRmtiMkpsTG5odGNBQUFBQUFBUEQ5NGNHRmphMlYwSUdKbFoybHVQU0x2dTc4aUlHbGtQU0pYTlUwd1RYQkRaV2hwU0hweVpWTjZUbFJqZW10ak9XUWlQejRnUEhnNmVHMXdiV1YwWVNCNGJXeHVjenA0UFNKaFpHOWlaVHB1Y3pwdFpYUmhMeUlnZURwNGJYQjBhejBpUVdSdlltVWdXRTFRSUVOdmNtVWdOUzQyTFdNeE5EVWdOemt1TVRZek5EazVMQ0F5TURFNEx6QTRMekV6TFRFMk9qUXdPakl5SUNBZ0lDQWdJQ0FpUGlBOGNtUm1PbEpFUmlCNGJXeHVjenB5WkdZOUltaDBkSEE2THk5M2QzY3Vkek11YjNKbkx6RTVPVGt2TURJdk1qSXRjbVJtTFhONWJuUmhlQzF1Y3lNaVBpQThjbVJtT2tSbGMyTnlhWEIwYVc5dUlISmtaanBoWW05MWREMGlJaUI0Yld4dWN6cDRiWEE5SW1oMGRIQTZMeTl1Y3k1aFpHOWlaUzVqYjIwdmVHRndMekV1TUM4aUlIaHRiRzV6T21SalBTSm9kSFJ3T2k4dmNIVnliQzV2Y21jdlpHTXZaV3hsYldWdWRITXZNUzR4THlJZ2VHMXNibk02Y0dodmRHOXphRzl3UFNKb2RIUndPaTh2Ym5NdVlXUnZZbVV1WTI5dEwzQm9iM1J2YzJodmNDOHhMakF2SWlCNGJXeHVjenA0YlhCTlRUMGlhSFIwY0RvdkwyNXpMbUZrYjJKbExtTnZiUzk0WVhBdk1TNHdMMjF0THlJZ2VHMXNibk02YzNSRmRuUTlJbWgwZEhBNkx5OXVjeTVoWkc5aVpTNWpiMjB2ZUdGd0x6RXVNQzl6Vkhsd1pTOVNaWE52ZFhKalpVVjJaVzUwSXlJZ2VHMXdPa055WldGMGIzSlViMjlzUFNKQlpHOWlaU0JRYUc5MGIzTm9iM0FnUTBNZ01qQXhPU0FvVjJsdVpHOTNjeWtpSUhodGNEcERjbVZoZEdWRVlYUmxQU0l5TURJeExUQTBMVEl4VkRBMU9qQXpPalF3S3pBek9qQXdJaUI0YlhBNlRXOWthV1o1UkdGMFpUMGlNakF5TVMwd05DMHlNVlF3TlRvd05qbzFOaXN3TXpvd01DSWdlRzF3T2sxbGRHRmtZWFJoUkdGMFpUMGlNakF5TVMwd05DMHlNVlF3TlRvd05qbzFOaXN3TXpvd01DSWdaR002Wm05eWJXRjBQU0pwYldGblpTOXdibWNpSUhCb2IzUnZjMmh2Y0RwRGIyeHZjazF2WkdVOUlqTWlJSEJvYjNSdmMyaHZjRHBKUTBOUWNtOW1hV3hsUFNKelVrZENJRWxGUXpZeE9UWTJMVEl1TVNJZ2VHMXdUVTA2U1c1emRHRnVZMlZKUkQwaWVHMXdMbWxwWkRvME16RXdZVFU0TmkwM01tUmhMV1k0TkRrdFltSTNOQzB5TnpSaE9UaGpOVEl3WTJVaUlIaHRjRTFOT2tSdlkzVnRaVzUwU1VROUluaHRjQzVrYVdRNk5ETXhNR0UxT0RZdE56SmtZUzFtT0RRNUxXSmlOelF0TWpjMFlUazRZelV5TUdObElpQjRiWEJOVFRwUGNtbG5hVzVoYkVSdlkzVnRaVzUwU1VROUluaHRjQzVrYVdRNk5ETXhNR0UxT0RZdE56SmtZUzFtT0RRNUxXSmlOelF0TWpjMFlUazRZelV5TUdObElqNGdQSGh0Y0UxTk9raHBjM1J2Y25rK0lEeHlaR1k2VTJWeFBpQThjbVJtT214cElITjBSWFowT21GamRHbHZiajBpWTNKbFlYUmxaQ0lnYzNSRmRuUTZhVzV6ZEdGdVkyVkpSRDBpZUcxd0xtbHBaRG8wTXpFd1lUVTROaTAzTW1SaExXWTRORGt0WW1JM05DMHlOelJoT1Roak5USXdZMlVpSUhOMFJYWjBPbmRvWlc0OUlqSXdNakV0TURRdE1qRlVNRFU2TURNNk5EQXJNRE02TURBaUlITjBSWFowT25OdlpuUjNZWEpsUVdkbGJuUTlJa0ZrYjJKbElGQm9iM1J2YzJodmNDQkRReUF5TURFNUlDaFhhVzVrYjNkektTSXZQaUE4TDNKa1pqcFRaWEUrSUR3dmVHMXdUVTA2U0dsemRHOXllVDRnUEM5eVpHWTZSR1Z6WTNKcGNIUnBiMjQrSUR3dmNtUm1PbEpFUmo0Z1BDOTRPbmh0Y0cxbGRHRStJRHcvZUhCaFkydGxkQ0JsYm1ROUluSWlQejdaZVZKTUFBQUErVWxFUVZRb2taM1NQeXNGVUJqSDhSL3ArbE5LSmdNbVdVVFdXelp2UVFhakRGNkExNkJNM29HeWs5MWlrS1NVVW1Jd3lDS3hYU1g1ODdHY1c0ZXU0WHJxRE0rZjczT2U1M2RPRDE2VERLUTdlK3FCTHFFa2VlbnRFSlRrTnNseWtxVWsxeDFSUCswTjI1aEF5cG5DSnQ2cnVsWU5ubUMyQW9ZeFV2bHoyQ3NOV3NGREFYZXJva1ZjNEF6TktqNklWVndGa3ppc3dGR2NWNU1jbzcva05qQ09SbStTNXlTclNVN0wydSsvWlBoTTBoYXhtV1FueVZod2p6VU1WU00xeTAxSG1LL2krMldLdTdZNEh6ajRWVFNFUnVVdjRMS1RxdTBHVzVpdWdKbXkvOWRmejFIYkRWYXdqc2NPK2RhL3YxeGZVYlhiVC83OERlYUtvK3JhMGg2U0FBQUFBRWxGVGtTdVFtQ0MiLz4KPC9kZWZzPgo8L3N2Zz4K">
+                                        </image>
+                                        <image id="image0_16_94" width="14" height="14"
+                                            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDUgNzkuMTYzNDk5LCAyMDE4LzA4LzEzLTE2OjQwOjIyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOSAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIxLTA0LTIxVDA1OjAzOjQwKzAzOjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMS0wNC0yMVQwNTowNjo1NiswMzowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMS0wNC0yMVQwNTowNjo1NiswMzowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0MzEwYTU4Ni03MmRhLWY4NDktYmI3NC0yNzRhOThjNTIwY2UiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDMxMGE1ODYtNzJkYS1mODQ5LWJiNzQtMjc0YTk4YzUyMGNlIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6NDMxMGE1ODYtNzJkYS1mODQ5LWJiNzQtMjc0YTk4YzUyMGNlIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo0MzEwYTU4Ni03MmRhLWY4NDktYmI3NC0yNzRhOThjNTIwY2UiIHN0RXZ0OndoZW49IjIwMjEtMDQtMjFUMDU6MDM6NDArMDM6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE5IChXaW5kb3dzKSIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7ZeVJMAAAA+UlEQVQokZ3SPysFUBjH8R/p+lNKJgMmWUTWWzZvQQajDF6A16BM3oGyk91ikKSUUmIwyCKxXSX587GcW4eu4XrqDM+f73Oe53dOD16TDKQ7e+qBLqEkeentEJTkNslykqUk1x1RP+0N25hAypnCJt6rulYNnmC2AoYxUvlz2CsNWsFDAXerokVc4AzNKj6IVVwFkziswFGcV5Mco7/kNjCORm+S5ySrSU7L2u+/ZPhM0haxmWQnyVhwjzUMVSM1y01HmK/i+2WKu7Y4Hzj4VTSERuUv4LKTqu0GW5iugJmy/9dfz1HbDVawjscO+da/v1xfUbXbT/78DeaKo+ra0h6SAAAAAElFTkSuQmCC">
+                                        </image>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <ul class="objects__cards">
+                                <li class="objects__card object-card" data-group-order="1">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="2">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="3">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="4">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="5">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="6">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="7">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="8">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="9">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="10">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="11">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="12">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="13">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="14">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="15">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="16">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="objects__card object-card" data-group-order="17">
+                                    <div class="object-card__image">
+                                        <img src="images/object-card.jpg" alt="" width="420" height="250">
+                                    </div>
+                                    <div class="object-card__body">
+                                        <h3 class="object-card__title">Заголовок про котлельную</h3>
+                                        <address class="object-card__address">
+                                            Санкт-Петербург, ул.Уличная 22
+                                        </address>
+                                        <div class="object-card__row">
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Напряжение</span>
+                                                <span class="object-card__column-value">110 кВ</span>
+                                            </div>
+                                            <div class="object-card__column">
+                                                <span class="object-card__column-name">Срок разработки</span>
+                                                <span class="object-card__column-value">25 дней</span>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="object-card__link">
+                                            <span class="object-card__link-text">Подробнее</span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section> -->
+            <!-- <section class="news">
+                <div class="news__container container">
+                    <div class="news__header">
+                        <h2 class="news__title title">Новости</h2>
+                        <a href="#" class="news__more-link">
+                            Все новости
+                        </a>
+                    </div>
+                    <ul class="news__list">
+                        <li class="news__item item-news" style="background-image: url('images/news-1.jpg');">
+                            <div class="item-news__body">
+                                <div class="item-news__info">
+                                    <h3 class="item-news__title">
+                                        <a href="#" class="item-news__title-link">
+                                            Монтаж котельных
+                                            и монтаж котлов топления
+                                        </a>
+                                    </h3>
+                                    <p class="item-news__text">
+                                        Монтаж котельных является основным направлением деятельности нашей компании. Как
+                                        правило, при монтаже котельных установок и монтаже котлов устанавливаются не
+                                        только сами котлы...
+                                    </p>
+                                </div>
+                                <div class="item-news__date">
+                                    <time datetime="2021-04-02">02.04.2021</time>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="news__item item-news" style="background-image: url('images/news-1.jpg');">
+                            <div class="item-news__body">
+                                <div class="item-news__info">
+                                    <h3 class="item-news__title">
+                                        <a href="#" class="item-news__title-link">
+                                            Проектирование, монтаж и сервисное обслуживание систем отопления и
+                                            теплоснабжения
+                                        </a>
+                                    </h3>
+                                    <p class="item-news__text">
+                                        Наша команда профессионалов эффективно решит задачи по проектированию инженерных
+                                        систем отопления и теплоснабжения любого вида
+                                        ...
+                                    </p>
+                                </div>
+                                <time class="item-news__date" datetime="2021-03-29">29.03.2021</time>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section> -->
+            <!-- <section class="about">
+                <div class="about__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="about-slide" style="background-image: url('images/about.jpg')"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="about-slide" style="background-image: url('images/about.jpg')"></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="about-slide" style="background-image: url('images/about.jpg')"></div>
+                        </div>
+                    </div>
+                    <div class="about__navigation">
+                        <button class="about__navigation-btn about__navigation-btn_prev">
+                            <div class="about__navigation-icon">
+                                <svg width="9" height="14" viewBox="0 0 9 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.8335 1.5L2.3335 7L7.8335 12.5" stroke="#dbdbdb" stroke-width="3" />
+                                </svg>
+                            </div>
+                        </button>
+                        <button class="about__navigation-btn about__navigation-btn_next">
+                            <div class="about__navigation-icon">
+                                <svg width="9" height="14" viewBox="0 0 9 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.1665 1.5L6.6665 7L1.1665 12.5" stroke="#dbdbdb" stroke-width="3" />
+                                </svg>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div class="about__container container">
+                    <div class="about__wrapper">
+                        <div class="about__content">
+                            <h2 class="about__title title">О компании</h2>
+                            <div class="about__text">
+                                <p>Основными видами деятельности является выработка тепловой энергии на собственных
+                                    котельных, передача и распределение тепловой энергии.</p>
+                                <p>Предприятие создано для наиболее полного удовлетворения потребностей населения,
+                                    организаций в услугах по получению тепловой энергии и горячего водоснабжения.</p>
+                                <p>Компания осуществляет свою деятельность в соответствии с законодательством, действующим
+                                    на территории Российской Федерации, актами органов местного самоуправления и Уставом
+                                    общества.</p>
+                            </div>
+                            <div class="about__more-text">
+                                <p>Основными видами деятельности является выработка тепловой энергии на собственных
+                                    котельных, передача и распределение тепловой энергии.</p>
+                                <p>Предприятие создано для наиболее полного удовлетворения потребностей населения,
+                                    организаций в услугах по получению тепловой энергии и горячего водоснабжения.</p>
+                                <p>Компания осуществляет свою деятельность в соответствии с законодательством, действующим
+                                    на территории Российской Федерации, актами органов местного самоуправления и Уставом
+                                    общества.</p>
+                            </div>
+                            <button class="about__more-btn">Читать полностью</button>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+        </main>
+        <!-- <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__top">
+                    <a href="/" class="footer__logo logo">
+                        <img class="logo__img" src="/images/icons/logo.svg" alt="Логотип Пром Импульс">
+                        <span class="logo__text">ООО "Пром Импульс" 2021</span>
+                    </a>
+                    <ul class="footer__row">
+                        <li class="footer__column footer-column">
+                            <h3 class="footer-column__title">Разделы сайта</h3>
+                            <ul class="footer-column__list">
+                                <li class="footer-column__item">
+                                    <a href="#" class="footer-column__link">О компании</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a href="#" class="footer-column__link">Услуги</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a href="#" class="footer-column__link">Раскрытие информации</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a href="#" class="footer-column__link">Абонентам</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a href="#" class="footer-column__link">Наши объекты</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a href="#" class="footer-column__link">Новости</a>
+                                </li>
+                                <li class="footer-column__item">
+                                    <a href="#" class="footer-column__link">Контакты</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="footer__item footer-column">
+                            <h3 class="footer-column__title">Разделы сайта</h3>
+                            <div class="footer-column__text">
+                                ООО "Пром Импульс" <br>
+                                ОГРН: 1053600591197 <br>
+                                ИНН: 3664069397 <br>
+                                КПП: xxxxxxxxx <br>
+                                ПФР: xxxxxxxxxxxx <br>
+                                ОКПО: xxxxxxxx <br>
+                                ФСС: xxxxxxxxxxxxxxx <br>
+                                ОКАТО: xxxxxxxxxxx <br>
+                                ОКТМО: xxxxxxxx <br>
+                                ОКОГУ: xxxxxxx <br>
+                                ОКФС: xx <br>
+                                ОКОПФ: xxxxx <br>
+                            </div>
+                        </li>
+                        <li class="footer__item footer-column">
+                            <ul class="footer-column__row">
+                                <li class="footer-column__row-item footer-column__row-item_tel">
+                                    <h3 class="footer-column__row-title">Тел./факс:</h3>
+                                    <a href="#" class="footer-column__row-value">+7 (812) 603-73-77</a>
+                                </li>
+                                <li class="footer-column__row-item">
+                                    <h3 class="footer-column__row-title">Тел./факс:</h3>
+                                    <address class="footer-column__row-value">196084, г. Санкт-Петербург,
+                                        ул. Рощинская, д. 5, лит. И</address>
+                                </li>
+                                <li class="footer-column__row-item">
+                                    <h3 class="footer-column__row-title">Email:</h3>
+                                    <a href="#" class="footer-column__row-value">office@promimpuls.ru</a>
+                                </li>
+                                <li class="footer-column__row-item">
+                                    <h3 class="footer-column__row-title">График работы:</h3>
+                                    <a href="#" class="footer-column__row-value">
+                                        Понедельник-Пятница <br>
+                                        08:00 - 19:00</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__container container">
+                <div class="footer__bottom">
+                    <a href="#" class="footer__bottom-link">Карта сайта</a>
+                    <ul class="footer__bottom-list">
+                        <li class="footer__bottom-item">
+                            <a href="#" class="footer__bottom-link">Обработка персональных данных</a>
+                        </li>
+                        <li class="footer__bottom-item">
+                            <a href="#" class="footer__bottom-link">Политика конфиденциальности</a>
+                        </li>
+                        <li class="footer__bottom-item">
+                            <a href="#" class="footer__bottom-link">Разработка: Design Studio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer> -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

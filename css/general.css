@@ -1,0 +1,51 @@
+@import url('reset.css');
+@import url('fonts.css');
+
+body {
+	font-family: 'TT Norms', sans-serif;
+    line-height: 1.5;
+    counter-reset: title;
+}
+
+.container {
+    max-width: 1410px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 120px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    counter-increment: title;
+    font-size: 46px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.title::before {
+    content: '0'counter(title);
+    font-size: 20px;
+    font-weight: 700;
+    color: #118bdd;
+}
+
+._fullscreen {
+    min-height: 100vh;
+}
+
+.logo__img {
+    width: 85px;
+    height: 27px;
+    display: block;
+}
+
+.logo__text {
+    margin-top: 10px;
+    display: block;
+}
